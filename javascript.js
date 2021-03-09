@@ -29,8 +29,8 @@ new L.Control.Draw({
 function createFormPopup() {
     var popupContent =
         '<form>' +
-        'Feature\'s Title:<br><input type="text" id="input_desc"><br>' +
-        'Description:<br><input type="text" id="input_name"><br>' +
+        'Feature\'s Title:<br><input type="text" id="input_name"><br>' +
+        'Description:<br><input type="text" id="input_desc"><br>' +
         '<input type="button" value="Submit" id="submit">' +
         '</form>'
     drawnItems.bindPopup(popupContent).openPopup();
